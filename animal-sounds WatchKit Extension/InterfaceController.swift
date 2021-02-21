@@ -6,21 +6,23 @@
 //
 
 import WatchKit
-import Foundation
+import AVFoundation
 
 
 class InterfaceController: WKInterfaceController {
+    var player = AVAudioPlayer()
+    
     private var animalsKeys = [
-        "Cat",
-        "Dog",
-        "Cow",
-        "Sheep",
-        "Horse",
-        "Goose",
-        "Hen",
-        "Elephant",
-        "Crocodile",
-        "Rabbit"
+        "cat",
+        "dog",
+        "cow",
+        "sheep",
+        "horse",
+        "goose",
+        "hen",
+        "elephant",
+        "crocodile",
+        "rabbit"
     ]
     
     private var animals: [String] {
@@ -52,13 +54,33 @@ class InterfaceController: WKInterfaceController {
         for i in animals.indices {
             if let row = tableView.rowController(at: i) as? AnimalRow {
                 row.animalName.setText(animals[i])
-                row.animalImage.setImageNamed(animalsKeys[i].lowercased())
+                row.animalImage.setImageNamed(animalsKeys[i])
             }
         }
     }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         print("selected item at \(rowIndex)")
+        playSound(animalsKeys[rowIndex])
     }
     
+    // credits to: https://stackoverflow.com/questions/32036146/how-to-play-a-sound-using-swift
+    private func playSound(_ fileName: String) {
+        guard let url = Bundle.main.url(
+                forResource: fileName,
+                withExtension: "mp3"
+        ) else { return }
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(
+                .playback,
+                mode: .default
+            )
+            try AVAudioSession.sharedInstance().setActive(true)
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
 }

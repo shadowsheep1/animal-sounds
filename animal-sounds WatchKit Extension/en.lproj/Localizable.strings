@@ -6,13 +6,13 @@
   
 */
 
-"Cat" = "Cat";
-"Dog" = "Dog";
-"Cow" = "Cow";
-"Sheep" = "Sheep";
-"Horse" = "Horse";
-"Goose" = "Goose";
-"Hen" = "Hen";
-"Elephant" = "Elephant";
-"Crocodile" = "Crocodile";
-"Rabbit" = "Rabbit";
+"cat" = "Cat";
+"dog" = "Dog";
+"cow" = "Cow";
+"sheep" = "Sheep";
+"horse" = "Horse";
+"goose" = "Goose";
+"hen" = "Hen";
+"elephant" = "Elephant";
+"crocodile" = "Crocodile";
+"rabbit" = "Rabbit";

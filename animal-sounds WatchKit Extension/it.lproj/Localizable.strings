@@ -6,13 +6,13 @@
   
 */
 
-"Cat" = "Gatto";
-"Dog" = "Cane";
-"Cow" = "Mucca";
-"Sheep" = "Pecora";
-"Horse" = "Cavallo";
-"Goose" = "Oca";
-"Hen" = "Gallina";
-"Elephant" = "Elefante";
-"Crocodile" = "Coccodrillo";
-"Rabbit" = "Coniglio";
+"cat" = "Gatto";
+"dog" = "Cane";
+"cow" = "Mucca";
+"sheep" = "Pecora";
+"horse" = "Cavallo";
+"goose" = "Oca";
+"hen" = "Gallina";
+"elephant" = "Elefante";
+"crocodile" = "Coccodrillo";
+"rabbit" = "Coniglio";
