@@ -14,12 +14,12 @@
                         <table alignment="left" id="1z4-pd-SDK">
                             <items>
                                 <tableRow identifier="AnimalRow" id="H3a-JK-843" customClass="AnimalRow" customModule="animal_sounds_WatchKit_Extension">
-                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="I7j-I5-zql">
+                                    <group key="rootItem" width="1" height="1" alignment="left" layout="vertical" id="I7j-I5-zql">
                                         <items>
                                             <label width="1" alignment="left" text="Animal name" id="CzV-Bt-A3U">
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
-                                            <imageView width="1" alignment="left" id="mAP-yt-lAN"/>
+                                            <imageView width="1" alignment="left" contentMode="scaleAspectFit" id="mAP-yt-lAN"/>
                                         </items>
                                     </group>
                                     <connections>

@@ -32,7 +32,9 @@ class InterfaceController: WKInterfaceController {
         
         for i in animals.indices {
             if let row = tableView.rowController(at: i) as? AnimalRow {
-                row.animalName.setText(animals[i])
+                let animalName = animals[i]
+                row.animalName.setText(animalName)
+                row.animalImage.setImageNamed(animalName.lowercased())
             }
         }
     }
