@@ -22,7 +22,7 @@ class InterfaceController: WKInterfaceController {
         "hen",
         "elephant",
         "crocodile",
-        "rabbit"
+        "bee"
     ]
     
     private var animals: [String] {

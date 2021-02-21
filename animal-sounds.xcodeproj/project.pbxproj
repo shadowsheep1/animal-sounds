@@ -20,6 +20,24 @@
 		BB97644A25E30B1800961C1E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB97644C25E30B1800961C1E /* Localizable.strings */; };
 		BB97645625E30E7400961C1E /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97645525E30E7400961C1E /* dog.mp3 */; };
 		BB97645725E30E7400961C1E /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97645525E30E7400961C1E /* dog.mp3 */; };
+		BB97645F25E30FFB00961C1E /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97645E25E30FFB00961C1E /* cat.mp3 */; };
+		BB97646025E30FFB00961C1E /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97645E25E30FFB00961C1E /* cat.mp3 */; };
+		BB97646B25E3116200961C1E /* goose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97646A25E3116200961C1E /* goose.mp3 */; };
+		BB97646C25E3116200961C1E /* goose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97646A25E3116200961C1E /* goose.mp3 */; };
+		BB97647725E311A600961C1E /* horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97647625E311A600961C1E /* horse.mp3 */; };
+		BB97647825E311A600961C1E /* horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97647625E311A600961C1E /* horse.mp3 */; };
+		BB97648325E3124500961C1E /* crocodile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97648225E3124500961C1E /* crocodile.mp3 */; };
+		BB97648425E3124500961C1E /* crocodile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97648225E3124500961C1E /* crocodile.mp3 */; };
+		BB97648925E3127B00961C1E /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97648825E3127B00961C1E /* elephant.mp3 */; };
+		BB97648A25E3127B00961C1E /* elephant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97648825E3127B00961C1E /* elephant.mp3 */; };
+		BB97649B25E3130400961C1E /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97649A25E3130400961C1E /* cow.mp3 */; };
+		BB97649C25E3130400961C1E /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB97649A25E3130400961C1E /* cow.mp3 */; };
+		BB9764A125E3134600961C1E /* hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9764A025E3134600961C1E /* hen.mp3 */; };
+		BB9764A225E3134600961C1E /* hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9764A025E3134600961C1E /* hen.mp3 */; };
+		BB9764AA25E3138400961C1E /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9764A925E3138400961C1E /* sheep.mp3 */; };
+		BB9764AB25E3138400961C1E /* sheep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9764A925E3138400961C1E /* sheep.mp3 */; };
+		BB9764B025E3142200961C1E /* bee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9764AF25E3142200961C1E /* bee.mp3 */; };
+		BB9764B125E3142200961C1E /* bee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB9764AF25E3142200961C1E /* bee.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +101,15 @@
 		BB97644B25E30B1800961C1E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BB97645025E30B1C00961C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BB97645525E30E7400961C1E /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		BB97645E25E30FFB00961C1E /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		BB97646A25E3116200961C1E /* goose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goose.mp3; sourceTree = "<group>"; };
+		BB97647625E311A600961C1E /* horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse.mp3; sourceTree = "<group>"; };
+		BB97648225E3124500961C1E /* crocodile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crocodile.mp3; sourceTree = "<group>"; };
+		BB97648825E3127B00961C1E /* elephant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant.mp3; sourceTree = "<group>"; };
+		BB97649A25E3130400961C1E /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
+		BB9764A025E3134600961C1E /* hen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hen.mp3; sourceTree = "<group>"; };
+		BB9764A925E3138400961C1E /* sheep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep.mp3; sourceTree = "<group>"; };
+		BB9764AF25E3142200961C1E /* bee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bee.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +172,16 @@
 		BB97645425E30E5900961C1E /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				BB9764AF25E3142200961C1E /* bee.mp3 */,
+				BB97645E25E30FFB00961C1E /* cat.mp3 */,
+				BB97649A25E3130400961C1E /* cow.mp3 */,
+				BB97648225E3124500961C1E /* crocodile.mp3 */,
 				BB97645525E30E7400961C1E /* dog.mp3 */,
+				BB97648825E3127B00961C1E /* elephant.mp3 */,
+				BB97646A25E3116200961C1E /* goose.mp3 */,
+				BB9764A025E3134600961C1E /* hen.mp3 */,
+				BB97647625E311A600961C1E /* horse.mp3 */,
+				BB9764A925E3138400961C1E /* sheep.mp3 */,
 			);
 			path = sounds;
 			sourceTree = "<group>";
@@ -257,9 +293,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB97647725E311A600961C1E /* horse.mp3 in Resources */,
+				BB97646B25E3116200961C1E /* goose.mp3 in Resources */,
+				BB9764AA25E3138400961C1E /* sheep.mp3 in Resources */,
 				BB97645625E30E7400961C1E /* dog.mp3 in Resources */,
+				BB97648925E3127B00961C1E /* elephant.mp3 in Resources */,
+				BB97645F25E30FFB00961C1E /* cat.mp3 in Resources */,
+				BB9764A125E3134600961C1E /* hen.mp3 in Resources */,
 				BB49294725E2654200C5898D /* Assets.xcassets in Resources */,
+				BB97648325E3124500961C1E /* crocodile.mp3 in Resources */,
+				BB9764B025E3142200961C1E /* bee.mp3 in Resources */,
 				BB49294525E2654100C5898D /* Interface.storyboard in Resources */,
+				BB97649B25E3130400961C1E /* cow.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +312,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB97647825E311A600961C1E /* horse.mp3 in Resources */,
+				BB97646C25E3116200961C1E /* goose.mp3 in Resources */,
+				BB9764AB25E3138400961C1E /* sheep.mp3 in Resources */,
 				BB97645725E30E7400961C1E /* dog.mp3 in Resources */,
+				BB97648A25E3127B00961C1E /* elephant.mp3 in Resources */,
+				BB97646025E30FFB00961C1E /* cat.mp3 in Resources */,
+				BB9764A225E3134600961C1E /* hen.mp3 in Resources */,
 				BB49295B25E2654300C5898D /* Assets.xcassets in Resources */,
+				BB97648425E3124500961C1E /* crocodile.mp3 in Resources */,
+				BB9764B125E3142200961C1E /* bee.mp3 in Resources */,
 				BB97644A25E30B1800961C1E /* Localizable.strings in Resources */,
+				BB97649C25E3130400961C1E /* cow.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
