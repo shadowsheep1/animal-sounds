@@ -1,6 +1,6 @@
 
 /* Class = "WKInterfaceLabel"; text = "Animal name"; ObjectID = "CzV-Bt-A3U"; */
-"CzV-Bt-A3U.text" = "Animal name";
+"CzV-Bt-A3U.text" = "Nome dell'animale";
 
 /* Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "IdU-wH-bcW"; */
-"IdU-wH-bcW.text" = "Alert Label";
+"IdU-wH-bcW.text" = "Testo di avviso";

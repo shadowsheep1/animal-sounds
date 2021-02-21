@@ -10,7 +10,26 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    private var animals = ["Cat", "Dog", "Cow", "Sheep", "Horse", "Goose", "Hen", "Elephant", "Crocodile", "Rabbit"]
+    private var animalsKeys = [
+        "Cat",
+        "Dog",
+        "Cow",
+        "Sheep",
+        "Horse",
+        "Goose",
+        "Hen",
+        "Elephant",
+        "Crocodile",
+        "Rabbit"
+    ]
+    
+    private var animals: [String] {
+        var animals: [String] = []
+        for animalKey in animalsKeys {
+            animals.append(NSLocalizedString(animalKey, comment: ""))
+        }
+        return animals
+    }
     
     @IBOutlet weak var tableView: WKInterfaceTable!
     
@@ -32,9 +51,8 @@ class InterfaceController: WKInterfaceController {
         
         for i in animals.indices {
             if let row = tableView.rowController(at: i) as? AnimalRow {
-                let animalName = animals[i]
-                row.animalName.setText(animalName)
-                row.animalImage.setImageNamed(animalName.lowercased())
+                row.animalName.setText(animals[i])
+                row.animalImage.setImageNamed(animalsKeys[i].lowercased())
             }
         }
     }

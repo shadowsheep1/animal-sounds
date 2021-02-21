@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  animal-sounds
+
+  Created by Fabio Bombardi on 21/02/21.
+  
+*/
+
+"Cat" = "Gatto";
+"Dog" = "Cane";
+"Cow" = "Mucca";
+"Sheep" = "Pecora";
+"Horse" = "Cavallo";
+"Goose" = "Oca";
+"Hen" = "Gallina";
+"Elephant" = "Elefante";
+"Crocodile" = "Coccodrillo";
+"Rabbit" = "Coniglio";

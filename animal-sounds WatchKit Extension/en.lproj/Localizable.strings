@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  animal-sounds
+
+  Created by Fabio Bombardi on 21/02/21.
+  
+*/
+
+"Cat" = "Cat";
+"Dog" = "Dog";
+"Cow" = "Cow";
+"Sheep" = "Sheep";
+"Horse" = "Horse";
+"Goose" = "Goose";
+"Hen" = "Hen";
+"Elephant" = "Elephant";
+"Crocodile" = "Crocodile";
+"Rabbit" = "Rabbit";
