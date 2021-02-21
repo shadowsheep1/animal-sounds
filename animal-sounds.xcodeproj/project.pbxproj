@@ -16,6 +16,7 @@
 		BB49295725E2654200C5898D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB49295625E2654200C5898D /* NotificationController.swift */; };
 		BB49295925E2654200C5898D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB49295825E2654200C5898D /* ComplicationController.swift */; };
 		BB49295B25E2654300C5898D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB49295A25E2654300C5898D /* Assets.xcassets */; };
+		BB49296F25E26A4000C5898D /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB49296E25E26A4000C5898D /* AnimalRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		BB49295A25E2654300C5898D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB49295C25E2654300C5898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB49295D25E2654300C5898D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BB49296E25E26A4000C5898D /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				BB49295A25E2654300C5898D /* Assets.xcassets */,
 				BB49295C25E2654300C5898D /* Info.plist */,
 				BB49295D25E2654300C5898D /* PushNotificationPayload.apns */,
+				BB49296E25E26A4000C5898D /* AnimalRow.swift */,
 			);
 			path = "animal-sounds WatchKit Extension";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				BB49295925E2654200C5898D /* ComplicationController.swift in Sources */,
 				BB49295525E2654200C5898D /* ExtensionDelegate.swift in Sources */,
 				BB49295325E2654200C5898D /* InterfaceController.swift in Sources */,
+				BB49296F25E26A4000C5898D /* AnimalRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
