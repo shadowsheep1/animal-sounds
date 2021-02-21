@@ -10,7 +10,7 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    private var animals = ["Gatto"]
+    private var animals = ["Cat", "Dog", "Cow", "Sheep", "Horse", "Goose", "Hen", "Elephant", "Crocodile", "Rabbit"]
     
     @IBOutlet weak var tableView: WKInterfaceTable!
     
