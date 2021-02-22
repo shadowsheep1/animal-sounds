@@ -6,11 +6,32 @@
 //
 
 import WatchKit
-import Foundation
+import AVFoundation
 
 
 class InterfaceController: WKInterfaceController {
-    private var animals = ["Cat", "Dog", "Cow", "Sheep", "Horse", "Goose", "Hen", "Elephant", "Crocodile", "Rabbit"]
+    var player = AVAudioPlayer()
+    
+    private var animalsKeys = [
+        "cat",
+        "dog",
+        "cow",
+        "sheep",
+        "horse",
+        "goose",
+        "hen",
+        "elephant",
+        "crocodile",
+        "bee"
+    ]
+    
+    private var animals: [String] {
+        var animals: [String] = []
+        for animalKey in animalsKeys {
+            animals.append(NSLocalizedString(animalKey, comment: ""))
+        }
+        return animals
+    }
     
     @IBOutlet weak var tableView: WKInterfaceTable!
     
@@ -32,15 +53,34 @@ class InterfaceController: WKInterfaceController {
         
         for i in animals.indices {
             if let row = tableView.rowController(at: i) as? AnimalRow {
-                let animalName = animals[i]
-                row.animalName.setText(animalName)
-                row.animalImage.setImageNamed(animalName.lowercased())
+                row.animalName.setText(animals[i])
+                row.animalImage.setImageNamed(animalsKeys[i])
             }
         }
     }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         print("selected item at \(rowIndex)")
+        playSound(animalsKeys[rowIndex])
     }
     
+    // credits to: https://stackoverflow.com/questions/32036146/how-to-play-a-sound-using-swift
+    private func playSound(_ fileName: String) {
+        guard let url = Bundle.main.url(
+                forResource: fileName,
+                withExtension: "mp3"
+        ) else { return }
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(
+                .playback,
+                mode: .default
+            )
+            try AVAudioSession.sharedInstance().setActive(true)
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
 }
