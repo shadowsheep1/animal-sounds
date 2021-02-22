@@ -25,7 +25,9 @@ class InterfaceController: WKInterfaceController {
         "bee",
         "mouse",
         "deer",
-        "lion"
+        "lion",
+        "peacock",
+        "wolf"
     ]
     
     private var animals: [String] {

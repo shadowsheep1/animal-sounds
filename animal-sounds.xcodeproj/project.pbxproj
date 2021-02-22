@@ -10,6 +10,8 @@
 		BB43C3DD25E45C8F002B89AA /* mouse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43C3DC25E45C8F002B89AA /* mouse.mp3 */; };
 		BB43C3E225E45C95002B89AA /* lion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43C3E125E45C95002B89AA /* lion.mp3 */; };
 		BB43C3E725E45C9F002B89AA /* deer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43C3E625E45C9F002B89AA /* deer.mp3 */; };
+		BB43C3EC25E460C2002B89AA /* wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43C3EB25E460C2002B89AA /* wolf.mp3 */; };
+		BB43C3F125E460CD002B89AA /* peacock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB43C3F025E460CD002B89AA /* peacock.mp3 */; };
 		BB49293F25E2654100C5898D /* animal-sounds WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BB49293E25E2654100C5898D /* animal-sounds WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BB49294525E2654100C5898D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB49294325E2654100C5898D /* Interface.storyboard */; };
 		BB49294725E2654200C5898D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB49294625E2654200C5898D /* Assets.xcassets */; };
@@ -89,6 +91,8 @@
 		BB43C3DC25E45C8F002B89AA /* mouse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mouse.mp3; sourceTree = "<group>"; };
 		BB43C3E125E45C95002B89AA /* lion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lion.mp3; sourceTree = "<group>"; };
 		BB43C3E625E45C9F002B89AA /* deer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deer.mp3; sourceTree = "<group>"; };
+		BB43C3EB25E460C2002B89AA /* wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolf.mp3; sourceTree = "<group>"; };
+		BB43C3F025E460CD002B89AA /* peacock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = peacock.mp3; sourceTree = "<group>"; };
 		BB49293A25E2654100C5898D /* animal-sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animal-sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB49293E25E2654100C5898D /* animal-sounds WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animal-sounds WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB49294425E2654100C5898D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 		BB97645425E30E5900961C1E /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				BB43C3F025E460CD002B89AA /* peacock.mp3 */,
+				BB43C3EB25E460C2002B89AA /* wolf.mp3 */,
 				BB43C3E625E45C9F002B89AA /* deer.mp3 */,
 				BB43C3E125E45C95002B89AA /* lion.mp3 */,
 				BB43C3DC25E45C8F002B89AA /* mouse.mp3 */,
@@ -335,7 +341,9 @@
 				BB43C3E725E45C9F002B89AA /* deer.mp3 in Resources */,
 				BB9764B125E3142200961C1E /* bee.mp3 in Resources */,
 				BB97644A25E30B1800961C1E /* Localizable.strings in Resources */,
+				BB43C3EC25E460C2002B89AA /* wolf.mp3 in Resources */,
 				BB97649C25E3130400961C1E /* cow.mp3 in Resources */,
+				BB43C3F125E460CD002B89AA /* peacock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
