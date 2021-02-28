@@ -8,7 +8,8 @@
 import WatchKit
 
 class AnimalRow: NSObject {
-
+    var animalKey: String = ""
+    
     @IBOutlet weak var animalName: WKInterfaceLabel!
     @IBOutlet weak var animalImage: WKInterfaceImage!
 }

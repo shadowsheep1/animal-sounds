@@ -30,10 +30,10 @@ class InterfaceController: WKInterfaceController {
         "wolf"
     ]
     
-    private var animals: [String] {
-        var animals: [String] = []
+    private var animals: Dictionary<String, String> {
+        var animals = Dictionary<String, String>()
         for animalKey in animalsKeys {
-            animals.append(NSLocalizedString(animalKey, comment: ""))
+            animals[animalKey] = NSLocalizedString(animalKey, comment: "")
         }
         return animals
     }
@@ -42,11 +42,11 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
-        setupTable()
     }
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
+        setupTable()
     }
     
     override func didDeactivate() {
@@ -56,17 +56,22 @@ class InterfaceController: WKInterfaceController {
     private func setupTable() {
         tableView.setNumberOfRows(animals.count, withRowType: "AnimalRow")
         
-        for i in animals.indices {
+        var i = 0
+        for k in animals.keys.shuffled() {
             if let row = tableView.rowController(at: i) as? AnimalRow {
-                row.animalName.setText(animals[i])
-                row.animalImage.setImageNamed(animalsKeys[i])
+                row.animalKey = k
+                row.animalName.setText(animals[k])
+                row.animalImage.setImageNamed(k)
             }
+            i += 1
         }
     }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         print("selected item at \(rowIndex)")
-        playSound(animalsKeys[rowIndex])
+        if let row = tableView.rowController(at: rowIndex) as? AnimalRow {
+            playSound(row.animalKey)
+        }
     }
     
     // credits to: https://stackoverflow.com/questions/32036146/how-to-play-a-sound-using-swift
