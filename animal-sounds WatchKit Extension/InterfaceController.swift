@@ -27,7 +27,17 @@ class InterfaceController: WKInterfaceController {
         "deer",
         "lion",
         "peacock",
-        "wolf"
+        "wolf",
+        "giraffe",
+        "monkey",
+        "seagull",
+        "raven",
+        "pig",
+        "turkey",
+        "parrot",
+        "frog",
+        "whale",
+        "penguin"
     ]
     
     private var animals: Dictionary<String, String> {
