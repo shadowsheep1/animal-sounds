@@ -564,7 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KW6AU4Q4NW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "animal-sounds WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -586,7 +586,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KW6AU4Q4NW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "animal-sounds WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,7 +610,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KW6AU4Q4NW;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = animal_sounds_WatchKit_Extension;
 				INFOPLIST_FILE = "animal-sounds WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.versionestabile.animal-sounds.watchkitapp";
@@ -630,7 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KW6AU4Q4NW;
+				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = animal_sounds_WatchKit_Extension;
 				INFOPLIST_FILE = "animal-sounds WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.versionestabile.animal-sounds.watchkitapp";
@@ -648,7 +648,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KW6AU4Q4NW;
+				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.versionestabile.animal-sounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -661,7 +661,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KW6AU4Q4NW;
+				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "it.versionestabile.animal-sounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
