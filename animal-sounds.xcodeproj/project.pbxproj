@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F106D83286DA9FA004CA109 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F106D82286DA9FA004CA109 /* Speaker.swift */; };
 		BB2CAB2E25EA7451009D522F /* whale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB2CAB2D25EA7451009D522F /* whale.mp3 */; };
 		BB2CAB3325EA7457009D522F /* penguin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB2CAB3225EA7457009D522F /* penguin.mp3 */; };
 		BB2CAB4325EA74CD009D522F /* frog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB2CAB4225EA74CD009D522F /* frog.mp3 */; };
@@ -98,6 +99,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F106D82286DA9FA004CA109 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		BB2CAB2D25EA7451009D522F /* whale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whale.mp3; sourceTree = "<group>"; };
 		BB2CAB3225EA7457009D522F /* penguin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = penguin.mp3; sourceTree = "<group>"; };
 		BB2CAB4225EA74CD009D522F /* frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frog.mp3; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				BB49295425E2654200C5898D /* ExtensionDelegate.swift */,
 				BB49295C25E2654300C5898D /* Info.plist */,
 				BB49295225E2654200C5898D /* InterfaceController.swift */,
+				6F106D82286DA9FA004CA109 /* Speaker.swift */,
 				BB97644C25E30B1800961C1E /* Localizable.strings */,
 				BB49295625E2654200C5898D /* NotificationController.swift */,
 				BB49295D25E2654300C5898D /* PushNotificationPayload.apns */,
@@ -397,6 +400,7 @@
 				BB49295725E2654200C5898D /* NotificationController.swift in Sources */,
 				BB49295925E2654200C5898D /* ComplicationController.swift in Sources */,
 				BB49295525E2654200C5898D /* ExtensionDelegate.swift in Sources */,
+				6F106D83286DA9FA004CA109 /* Speaker.swift in Sources */,
 				BB49295325E2654200C5898D /* InterfaceController.swift in Sources */,
 				BB49296F25E26A4000C5898D /* AnimalRow.swift in Sources */,
 			);

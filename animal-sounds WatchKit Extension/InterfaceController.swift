@@ -36,7 +36,7 @@ class InterfaceController: WKInterfaceController {
         "turkey",
         "parrot",
         "frog",
-        "whale",
+        //"whale",
         "penguin"
     ]
     
@@ -52,11 +52,11 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
+        setupTable()
     }
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
-        setupTable()
     }
     
     override func didDeactivate() {
@@ -80,8 +80,22 @@ class InterfaceController: WKInterfaceController {
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         print("selected item at \(rowIndex)")
         if let row = tableView.rowController(at: rowIndex) as? AnimalRow {
-            playSound(row.animalKey)
+            playName(row.animalKey)
+            
         }
+    }
+    
+    private func playName(_ animalNameKey: String) {
+        textToSpeech(animalNameKey)
+    }
+    
+    private func textToSpeech(_ animalNameKey: String) {
+        let text = NSLocalizedString(animalNameKey, comment: "")
+        let speaker = Speaker { [weak self] in
+            guard let self = self else { return }
+            self.playSound(animalNameKey)
+        }
+        speaker.speak(text)
     }
     
     // credits to: https://stackoverflow.com/questions/32036146/how-to-play-a-sound-using-swift
@@ -102,5 +116,14 @@ class InterfaceController: WKInterfaceController {
         } catch let error {
             print(error.localizedDescription)
         }
+    }
+}
+
+extension InterfaceController: AVSpeechSynthesizerDelegate {
+    func speechSynthesizer(
+        _ synthesizer: AVSpeechSynthesizer,
+        didFinish utterance: AVSpeechUtterance
+    ) {
+        print("all done")
     }
 }
